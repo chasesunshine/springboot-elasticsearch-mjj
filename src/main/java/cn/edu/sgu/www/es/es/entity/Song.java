@@ -1,4 +1,4 @@
-package cn.edu.sgu.www.es.entity;
+package cn.edu.sgu.www.es.es.entity;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
