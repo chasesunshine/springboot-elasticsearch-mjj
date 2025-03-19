@@ -1,0 +1,5 @@
+1. 打开bin目录，双击下面的文件启动 elasticsearch.bat
+    启动完成后访问localhost:9200
+
+2. 打开bin目录，双击kibaba.bat启动kibaba
+    启动完成后，在浏览器地址栏输入http://localhost:5601/app/kibana#/dev_tools/console
