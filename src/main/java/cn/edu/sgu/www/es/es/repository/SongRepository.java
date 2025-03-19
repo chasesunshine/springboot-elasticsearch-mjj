@@ -10,6 +10,13 @@ import java.util.List;
  * @author heyunlin
  * @version 1.0
  */
+
+/**
+ * ElasticsearchRepository<T, ID>
+ *
+ * T：表示实体类型（Entity Type），即与 Elasticsearch 文档映射的 Java 类。
+ * ID：表示实体主键的类型，通常是 String 或 Long。
+ */
 @Repository
 public interface SongRepository extends ElasticsearchRepository<Song, String> {
 
